@@ -25,7 +25,6 @@ app.get('/', function(req,res) {
         } else {
             var bodyAsOb = JSON.parse(bod)
             console.log('   -->    ', bod)
-            //res.send({results: bodyAsOb})
         }
     })
 })
